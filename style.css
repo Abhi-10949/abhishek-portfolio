@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.skill-card:hover .skill-icon {
+    transform: scale(1.1);
+}
+
+/* Ensure Next.js logo remains visible on dark backgrounds */
+.dark .invert, .dark :is(img.dark\:invert) {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #3b82f6; /* blue-500 */
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+#project-filters button.active {
+    background-color: #3b82f6; /* blue-500 */
+    color: white;
+}
+
+/* Scrollspy active state */
+.nav-link.active {
+    color: #60a5fa; /* blue-400 */
+}
+
+/* Typewriter caret */
+.typewriter::after {
+    content: '|';
+    margin-left: 4px;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}

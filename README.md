@@ -1,47 +1,40 @@
 # Abhishek Portfolio 🌐
 
-Welcome to my personal portfolio website!  
-This project showcases my journey as a **Computer Science Engineer**, highlighting my skills, projects, and achievements.  
-It serves as a central hub for recruiters, collaborators, and anyone interested in exploring my work.  
+Modern, responsive portfolio for Abhishek Kumar showcasing skills, projects, achievements, and contact.
 
----
-
-## 🚀 Features
-- Responsive and modern UI design  
-- Showcase of my projects with GitHub links & live demos  
-- Resume and contact section  
-- Optimized for recruiters and hiring managers  
-- Easy to update and maintain  
-
----
+## 🚀 Highlights
+- Dark mode toggle with persisted preference
+- Animated hero with gradient accents and typewriter effect
+- ScrollReveal section animations
+- Project filters and tags
+- Glassmorphism contact card
+- Scroll-to-top button and scrollspy navigation
+- Dynamic footer year
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript  
-- **Optional:** React  
-- **Deployment:** GitHub Pages / Netlify / Vercel  
+- HTML, TailwindCSS (CDN), Custom CSS
+- Vanilla JavaScript
+- Deployed on GitHub Pages / Netlify / Vercel
 
----
+## 📂 Structure
+- `index.html`: Sections, header, footer, buttons
+- `style.css`: Nav states, typewriter caret, card hovers
+- `script.js`: Data arrays, rendering, filters, theme, typewriter, scrollspy, scroll-top, animations
 
-## 📂 Sections
-- **About Me** – A brief introduction about who I am and my journey  
-- **Skills** – My technical expertise in programming and development  
-- **Projects** – A collection of my featured projects with links  
-- **Resume** – Downloadable resume for recruiters  
-- **Contact** – Ways to reach me  
+## ✏️ Customize
+Open `script.js` and edit these arrays:
+- `skills`: Add `{ name, icon }`
+- `projects`: `{ title, description, image, tags[], liveUrl, sourceUrl }`
+- `achievements`: `{ title, description, url, date }`
+- `certifications`: `{ name, issuer, url, date }`
 
----
+Upload your images via the UI file inputs for profile, about, and certifications.
 
-## 📸 Preview
-![Portfolio Screenshot](https://via.placeholder.com/1000x500?text=Portfolio+Preview)  
-
----
+Replace placeholder links in `index.html` footer and project entries with your real URLs. Add `resume.pdf` at the project root for the download button.
 
 ## 📬 Contact
-- **Name:** Abhishek Kumar  
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/abhishek-kumar-cse4/)  
-- **GitHub:** [abhishek-portfolio](https://github.com/Abhi-10949)  
-- **Email:** abhi777ksingh@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/abhishek-kumar-cse4/
+- GitHub: https://github.com/Abhi-10949
+- Email: abhi777ksingh@gmail.com
 
----
-
-✨ This portfolio is a continuous work in progress, just like my learning journey!  
+— Continuous improvements welcome.
