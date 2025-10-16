@@ -160,11 +160,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    document.getElementById('profile-photo-upload').dataset.target = 'profile-photo';
-    document.getElementById('about-photo-upload').dataset.target = 'about-photo';
-
+    // Wire up only dynamic certificate uploads; hero/about photo uploads removed
     document.addEventListener('change', (e) => {
-        if (e.target.type === 'file' && e.target.dataset.target) {
+        if (e.target.type === 'file' && e.target.dataset && e.target.dataset.target) {
             handleImageUpload(e);
         }
     });
