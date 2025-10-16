@@ -4,4 +4,4 @@
 *.jpeg
 
 # Allow images in assets/images to be committed
-!assets/images/
+!assets/images/**
